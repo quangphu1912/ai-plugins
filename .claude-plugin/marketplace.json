@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-plugins",
+  "description": "AI plugin marketplace — codebase analysis, reverse engineering, and development orchestration",
+  "owner": {
+    "name": "Phu Le"
+  },
+  "plugins": [
+    {
+      "name": "codebase-analyzer",
+      "description": "Codebase analysis, reverse engineering, and development orchestration — 32 skills covering reconnaissance, deep investigation, TDD, debugging, planning, and code review",
+      "version": "0.2.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/quangphu1912/codebase-analyzer.git",
+        "sha": "39c7c63afee7d50e84eaa7ef5659f6a88b7a155d"
+      },
+      "author": {
+        "name": "Phu Le"
+      }
+    }
+  ]
+}
